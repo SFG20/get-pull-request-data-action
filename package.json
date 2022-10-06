@@ -1,0 +1,24 @@
+{
+  "name": "get-pull-request-data-action",
+  "version": "1.0.0",
+  "description": "Retrieve pull request info for use in github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SFG20/get-pull-request-data-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SFG20/get-pull-request-data-action/issues"
+  },
+  "homepage": "https://github.com/SFG20/get-pull-request-data-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1"
+  }
+}

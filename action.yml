@@ -1,0 +1,11 @@
+name: 'Get Pull Request Data'
+description: 'Fetch issue data from the Github API'
+inputs:
+  issue_number: 'PR issue number'
+    required: true
+outputs:
+  data: # data returned by the github api
+    description: 'Data returned by the API'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
