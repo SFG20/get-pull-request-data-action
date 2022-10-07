@@ -3,6 +3,6 @@
 
 # git add dist/*
 git add *
-# git tag -a -m "Release test" v1.2
-git commit -m 'wip'
+git commit -m 'WIP'
+git tag -a -f -m "Release test" v1.0
 git push --follow-tags
